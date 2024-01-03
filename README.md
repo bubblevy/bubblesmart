@@ -12,10 +12,10 @@
     Di dalam 'Dashboard', admin bisa melihat statistik pengguna yang mengerjakan quiz, total pengguna, total quiz, dan thread forum.
 
 -   <b>Data Materi</b><br>
-    Dalam menu 'Data Materi', admin dapat melakukan insert data materi, update data materi, dan juga delete data materi. Selain itu, terdapat juga fitur searching untuk melakukan filer saat mencari data materi. Data materi berisi gambar, judul, kategori, dan juga audio.
+    Dalam menu 'Data Materi', admin dapat melakukan insert data materi, update data materi, dan juga delete data materi. Selain itu, terdapat juga fitur searching untuk melakukan filter saat mencari data materi. Data materi berisi gambar, judul, kategori, dan juga audio.
 
 -   <b>Data Quiz</b><br>
-    Di dalam menu 'Data Quiz', admin dapat melakukan insert data quiz, update data quiz, delete data quiz, lihat pertanyaan, tambah pertannyaan, update pertannyaan, dan juga delete pertanyaan. Terdapat juga fitur pencarian data quiz dan juga data pertannyan.
+    Di dalam menu 'Data Quiz', admin dapat melakukan insert data quiz, update data quiz, delete data quiz, lihat pertanyaan, tambah pertanyaan, update pertannyaan, dan juga delete pertanyaan. Terdapat juga fitur pencarian data quiz dan juga data pertanyaan.
 
 -   <b>Forum</b><br>
     Dalam menu 'Forum', admin dapat menambahkan thread baru, delete thread, like thread, comment thread dan juga delete comment pada thread. Admin bisa melihat siapa saja yang like thread.
@@ -24,10 +24,10 @@
     Dalam menu 'Laporan', admin dapat melihat siapa saja yang sudah mengerjakan quiz, serta dapat melihat jawaban dan juga nilai pengguna aplikasi.
 
 -   <b>Text to Aksara</b><br>
-    Dalam menu 'Text to Aksara', admin dapat mengubah text latin menjadi huruf aksara jawa. Terdapat juga menu salin text aksara untuk mempercepat.
+    Dalam menu 'Text to Aksara', admin dapat mengubah text latin biasa menjadi huruf aksara jawa. Terdapat juga menu salin text aksara untuk mempercepat.
 
 -   <b>Pengaturan</b><br>
-    Di menu 'Pengaturan', admin dapat melihat dan mengubah informasi identitas pribadi, termasuk perubahan identitas, perubahan kata sandi, dan pengaturan lain yang terkait dengan aplikasi.
+    Di menu 'Pengaturan', admin dapat melihat dan mengubah informasi identitas pribadi, termasuk perubahan identitas, perubahan password, dan pengaturan lain yang terkait dengan aplikasi.
 
 #### Member
 
@@ -40,7 +40,7 @@
 -   <b>Forum</b><br>
     Forum digunakan untuk berdiskusi jika terdapat masalah mengenai materi yang ada. Setiap pengguna bisa mengajukan pertanyaan dan nantinya pertanyaan tersebut bisa dijawab oleh pengguna lain.
 
-    Dalam menu 'Forum', member dapat menambahkan thread baru, delete thread, like thread, comment thread dan juga delete comment pada thread. member juga bisa melihat siapa saja yang like thread.
+    Dalam menu 'Forum', pengguna dapat menambahkan thread baru, delete thread, like thread, comment thread dan juga delete comment pada thread. member juga bisa melihat siapa saja yang like thread.
 
 -   <b>Nilai</b><br>
     Setiap selesai menjawab quiz, pengguna dapat melihat nilainya langsung di menu 'Nilai'. Pengguna juga dapat melihat pertanyaan mana saja yang jawabannya benar dan juga salah. Selain itu, pengguna juga bisa menghapus histori mengerjakan quiznya.
