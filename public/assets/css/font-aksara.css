@@ -1,0 +1,8 @@
+@font-face {
+    font-family: nyk Ngayogyan;
+    src: url("../vendors/fonts/nyk-Ngayogyan-Jejeg.ttf") format("truetype");
+    font-style: normal;
+}
+.javanese {
+    font-family: nyk Ngayogyan, sans-serif;
+}

@@ -1,0 +1,106 @@
+.apexcharts-legend-series {
+    display: none;
+}
+
+.apexcharts-title-text {
+    font-size: 1rem;
+    font-weight: 700 !important;
+}
+
+.card[class*="card-border-shadow-"] {
+    position: relative;
+    border-bottom: none;
+    transition: all 0.2s ease-in-out;
+    z-index: 1;
+}
+
+.card[class*="card-border-shadow-"]::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
+    z-index: -1;
+}
+
+.card[class*="card-border-shadow-"]:hover {
+    box-shadow: 0 0.25rem 1rem rgba(161, 172, 184, 0.45);
+}
+
+.card[class*="card-border-shadow-"]:hover::after {
+    border-bottom-width: 3px;
+}
+
+.card[class*="card-hover-border-"] {
+    border-width: 1px;
+}
+
+.card.card-border-shadow-secondary::after {
+    border-bottom-color: #ced3da;
+}
+
+.card.card-border-shadow-secondary:hover::after {
+    border-bottom-color: #8592a3;
+}
+
+.card.card-hover-border-secondary:hover,
+.card .card-hover-border-secondary:hover {
+    border-color: #d1d6dc;
+}
+
+.card.card-border-shadow-success::after {
+    border-bottom-color: #c6f1af;
+}
+
+.card.card-border-shadow-success:hover::after {
+    border-bottom-color: #71dd37;
+}
+
+.card.card-hover-border-success:hover,
+.card .card-hover-border-success:hover {
+    border-color: #c9f2b3;
+}
+
+.card.card-border-shadow-info::after {
+    border-bottom-color: #9ae7f7;
+}
+
+.card.card-border-shadow-info:hover::after {
+    border-bottom-color: #03c3ec;
+}
+
+.card.card-hover-border-info:hover,
+.card .card-hover-border-info:hover {
+    border-color: #9fe8f8;
+}
+
+.card.card-border-shadow-warning::after {
+    border-bottom-color: #fd9;
+}
+
+.card.card-border-shadow-warning:hover::after {
+    border-bottom-color: #ffab00;
+}
+
+.card.card-hover-border-warning:hover,
+.card .card-hover-border-warning:hover {
+    border-color: #ffdf9e;
+}
+
+.card.card-border-shadow-primary::after {
+    border-bottom-color: #c3c4ff;
+}
+
+.card.card-border-shadow-primary:hover::after {
+    border-bottom-color: #696cff;
+}
+
+.card.card-hover-border-primary:hover,
+.card .card-hover-border-primary:hover {
+    border-color: #c6c7ff;
+}

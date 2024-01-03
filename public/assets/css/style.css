@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Boxicons";
+    src: url("../vendors/assets/vendor/fonts/boxicons/boxicons.woff2")
+        format("woff2");
+    font-display: swap;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #696cff !important;
+    border-radius: 6px;
+}
+
+.box {
+    width: 130px;
+    height: 130px;
+}
+
+.card-body h2 {
+    color: #040404;
+}
+
+li input[type="radio"]:checked + label {
+    font-weight: 500 !important;
+    color: #696cff !important;
+    background-color: #e7e7ff !important;
+    padding: 0.42em 0.493em;
+    font-size: 0.9125em;
+    line-height: 1;
+    border-radius: 0.25rem;
+    word-wrap: break-word;
+    white-space: normal;
+    display: block;
+}
