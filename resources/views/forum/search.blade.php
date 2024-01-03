@@ -127,7 +127,7 @@
 <!-- Modal Add New Topic Thread-->
 <div class="modal fade" id="formModalAddTopic" data-bs-backdrop="static" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog" role="document">
-    <form action="" method="post" class="modalAddTopic">
+    <form action="/view/discuss" method="post" class="modalAddTopic">
       @csrf
       <div class="modal-content">
         <div class="modal-header d-flex justify-content-between">

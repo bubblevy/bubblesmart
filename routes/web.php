@@ -105,6 +105,9 @@ Route::get('/docs/v1/start', function () {
 
 
 // admin
+//admin dashboard
+Route::get('/admin/dashboard',  [AdminDashboardController::class, 'index'])->middleware('admin');
+
 // admin materi
 Route::get('/admin/data-materi', [MateriController::class, 'index'])->middleware('admin');
 Route::post('/admin/data-materi', [MateriController::class, 'store'])->middleware('admin');
@@ -119,8 +122,6 @@ Route::get('/admin/data-materi/delete', function () {
 Route::get('/admin/data-materi/search', [MateriController::class, 'search'])->middleware('admin');
 
 //admin quiz
-Route::get('/admin/dashboard',  [AdminDashboardController::class, 'index'])->middleware('admin');
-
 Route::get('/admin/data-quiz', [AdminDataQuizController::class, 'index'])->middleware('admin');
 Route::get('/admin/data-quiz/search', [AdminDataQuizController::class, 'search'])->middleware('admin');
 Route::post('/admin/data-quiz', [AdminDataQuizController::class, 'store'])->middleware('admin');

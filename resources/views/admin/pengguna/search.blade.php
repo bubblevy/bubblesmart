@@ -110,7 +110,7 @@
 <!-- Modal Add Pengguna-->
 <div class="modal fade" id="formModalAdminAddPengguna" data-bs-backdrop="static" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog" role="document">
-    <form action="" method="post" class="modalAdminAddPengguna" enctype="multipart/form-data">
+    <form action="/admin/pengguna" method="post" class="modalAdminAddPengguna" enctype="multipart/form-data">
       @csrf
       <div class="modal-content">
         <div class="modal-header d-flex justify-content-between">

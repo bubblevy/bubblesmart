@@ -125,7 +125,7 @@
 <!-- Modal Add Materi-->
 <div class="modal fade" id="formModalAdminMateri" data-bs-backdrop="static" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog" role="document">
-    <form action="" method="post" class="modalAdminMateri" enctype="multipart/form-data">
+    <form action="/admin/data-materi" method="post" class="modalAdminMateri" enctype="multipart/form-data">
       @csrf
       <div class="modal-content">
         <div class="modal-header d-flex justify-content-between">

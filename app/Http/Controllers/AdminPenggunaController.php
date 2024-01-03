@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 use App\Models\Application;
 use App\Models\User;
 use App\Models\Result;
+use App\Models\Thread;
+use App\Models\Comment;
+use App\Models\Like;
 use Illuminate\Validation\Rules\Password;
 
 class AdminPenggunaController extends Controller
@@ -107,6 +110,9 @@ class AdminPenggunaController extends Controller
 
     public function destroy(User $user)
     {
+        Like::where('user_id', $user->id)->delete();
+        Comment::where('user_id', $user->id)->delete();
+        Thread::where('user_id', $user->id)->delete();
         Answer_user::where('user_id', $user->id)->delete();
         Result::where('user_id', $user->id)->delete();
         User::destroy($user->id);

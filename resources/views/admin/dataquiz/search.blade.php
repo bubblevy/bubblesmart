@@ -107,7 +107,7 @@
 <!-- Modal Add Quiz-->
 <div class="modal fade" id="formModalAdminQuiz" data-bs-backdrop="static" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog" role="document">
-    <form action="" method="post" class="modalAdminQuiz">
+    <form action="/admin/data-quiz" method="post" class="modalAdminQuiz">
       @csrf
       <div class="modal-content">
         <div class="modal-header d-flex justify-content-between">
