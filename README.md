@@ -1,6 +1,6 @@
 <p align="center"><img src="https://i.ibb.co/4VQfqsF/Cuplikan-layar-2024-01-02-205804.png" width="100%" alt="BubbleSmart Demo"></p>
 
-## About BubbleBubbleSmart
+## About BubbleSmart
 
 <b>BubbleSmart</b> adalah aplikasi belajar online Aksara Jawa dengan mudah dan menyenangkan. Berikut beberapa fitur yang ada di BubbleSmart:
 
