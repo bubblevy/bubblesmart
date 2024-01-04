@@ -118,4 +118,4 @@ php artisan serve
 
 ## License
 
-The BubbleClinic is open-sourced licensed under the [MIT license](https://github.com/bubblevy/bubblesmart/blob/main/LICENSE).
+The BubbleSmart is open-sourced licensed under the [MIT license](https://github.com/bubblevy/bubblesmart/blob/main/LICENSE).
