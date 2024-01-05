@@ -74,7 +74,6 @@ cp .env.example .env
 #### 4. Configure .env
 
 ```sh
-FAKER_LOCALE=id_ID
 FILESYSTEM_DISK=public
 ```
 
