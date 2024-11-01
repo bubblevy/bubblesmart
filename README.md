@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.ibb.co/4VQfqsF/Cuplikan-layar-2024-01-02-205804.png" width="100%" alt="BubbleSmart Demo"></p>
+<p align="center"><img src="https://haibubble.com/static-images/bubblesmart.png" width="100%" alt="BubbleSmart Demo"></p>
 
 ## About BubbleSmart
 
