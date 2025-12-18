@@ -1,4 +1,4 @@
-<p align="center"><img src="https://haibubble.com/static-images/bubblesmart.png" width="100%" alt="BubbleSmart Demo"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/bubblevy/bubblesmart/main/public/docs/assets/img/bubblesmart.png" width="100%" alt="BubbleSmart Demo"></p>
 
 ## About BubbleSmart
 
